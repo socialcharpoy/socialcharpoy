@@ -19,7 +19,6 @@ div.card-body { padding-left: none!important; }
   div[class$='content'] p { font-size: 0.8rem!important; }
   p.profile-details { font-size: 1rem!important; }
   div[class$='content']:not(nth-child(n+2)) { width: 100%!important; }
-  p.profile-details { display: none; }
 }
 
 /* Small devices (landscape phones, 544px and up) */
@@ -127,9 +126,9 @@ div[class$='content'] p {
 }
 
 img.profile-pic {
-  border-radius: 40%;
+  border-radius: 50%;
   height: 220px!important;
-  max-width: 250px!important;
+  width: 220px!important;
   margin-left: 15%;
 }
 
